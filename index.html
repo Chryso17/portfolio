@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | N. Yves C. SOME</title>
+    <!-- Tailwind CSS CDN pour un design moderne et rapide -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans scroll-smooth">
+
+    <!-- NAVIGATION -->
+    <nav class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-blue-600 tracking-wide">NYCS.ENGINEERING</a>
+            <div class="space-x-6 hidden md:flex font-medium">
+                <a href="#accueil" class="hover:text-blue-600 transition">Accueil</a>
+                <a href="#a-propos" class="hover:text-blue-600 transition">À Propos</a>
+                <a href="#competences" class="hover:text-blue-600 transition">Compétences</a>
+                <a href="#projets" class="hover:text-blue-600 transition">Projets & Expériences</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="accueil" class="bg-gradient-to-br from-slate-900 to-blue-950 text-white py-24 px-4 text-center md:text-left">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+            <div class="space-y-6 md:w-2/3">
+                <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm font-semibold uppercase tracking-wider">Portfolio Professionnel</span>
+                <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Nonwimalou Yves Chrysologue SOME</h1>
+                <p class="text-xl text-slate-300 font-light">Ingénieur Travaux en Maintenance des Systèmes</p>
+                <p class="text-slate-400 max-w-xl">Spécialisé dans l'optimisation des équipements industriels, le pilotage des plans de prévention HSE et la gestion de projets de maintenance complexes.</p>
+                <div class="pt-4 flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="#projets" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-semibold shadow-lg transition">Voir mes réalisations</a>
+                    <a href="#contact" class="border border-slate-500 hover:bg-white/10 px-6 py-3 rounded-lg font-semibold transition">Me contacter</a>
+                </div>
+            </div>
+            <div class="md:w-1/3 flex justify-center">
+                <!-- Icône d'ingénierie imposante en attendant ta photo -->
+                <div class="w-64 h-64 bg-slate-800 rounded-2xl flex items-center justify-center border border-slate-700 shadow-2xl">
+                    <i class="fa-solid fa-gears text-7xl text-blue-500 animate-pulse"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section id="a-propos" class="py-20 px-4 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-slate-900 mb-2 text-center">À Propos de Moi</h2>
+        <div class="w-16 h-1 bg-blue-600 mx-auto mb-12"></div>
+        
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 max-w-3xl mx-auto text-center md:text-left">
+            <p class="text-lg leading-relaxed text-gray-600 mb-6">
+                Alliant une solide formation en <strong>Électromécanique</strong> et une expérience concrète sur le terrain industriel, j'interviens sur la continuité opérationnelle des systèmes critiques. De la gestion opérationnelle à la conformité réglementaire (HSE), je mets mon expertise technique au service de la performance industrielle.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm font-medium text-gray-500">
+                <div><i class="fa-solid fa-check text-blue-500 mr-2"></i> Maintenance Industrielle (Thermique & Électrique)</div>
+                <div><i class="fa-solid fa-check text-blue-500 mr-2"></i> Gestion de Contrats & Suivi d'Équipe</div>
+                <div><i class="fa-solid fa-check text-blue-500 mr-2"></i> Suivi des Plans de Prévention HSE</div>
+                <div><i class="fa-solid fa-check text-blue-500 mr-2"></i> Automatisation & Digitalisation (GMAO)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section id="competences" class="bg-gray-100 py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-slate-900 mb-2 text-center">Expertises & Compétences</h2>
+            <div class="w-16 h-1 bg-blue-600 mx-auto mb-12"></div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Bloc 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200/60">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4 text-xl font-bold">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Génie Électromécanique</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li>• Électricité industrielle et du bâtiment</li>
+                        <li>• Maintenance de transformateurs de puissance</li>
+                        <li>• Suivi de grosses motorisations thermiques diesel</li>
+                        <li>• Systèmes de chaudières industrielles</li>
+                    </ul>
+                </div>
+                <!-- Bloc 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200/60">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-4 text-xl font-bold">
+                        <i class="fa-solid fa-shield-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Gestion de Travaux & HSE</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li>• Élaboration et suivi des plans de prévention annuels</li>
+                        <li>• Gestion et traçabilité des parcs d'extincteurs</li>
+                        <li>• Coordination des contrats d'achats techniques</li>
+                        <li>• Reporting hebdomadaire et indicateurs de performance</li>
+                    </ul>
+                </div>
+                <!-- Bloc 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200/60">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-4 text-xl font-bold">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Outils & Digitalisation</h3>
+                    <ul class="text-gray-600 space-y-2 text-sm">
+                        <li>• ERP : SAGE X3 (Gestion de maintenance et flux)</li>
+                        <li>• Développement d'outils GMAO sur-mesure (C++ / Qt)</li>
+                        <li>• Modélisation et simulations d'ingénierie</li>
+                        <li>• Études de compatibilité électromagnétique (CEM)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETS & EXPÉRIENCES -->
+    <section id="projets" class="py-20 px-4 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-slate-900 mb-2 text-center">Expériences & Projets Marquants</h2>
+        <div class="w-16 h-1 bg-blue-600 mx-auto mb-12"></div>
+
+        <div class="space-y-8">
+            <!-- Expérience 1 -->
+            <div class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 items-start">
+                <div class="bg-blue-600 text-white p-4 rounded-lg font-bold text-center w-full md:w-32 shrink-0">
+                    <span class="block text-2xl">Actuel</span>
+                    <span class="text-xs uppercase tracking-wider">Barka Energies</span>
+                </div>
+                <div class="space-y-3">
+                    <h3 class="text-2xl font-bold text-slate-900">Supervision des Contrats de Maintenance & HSE</h3>
+                    <p class="text-sm font-semibold text-blue-600">Barka Energies S.A.</p>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Gestion et validation des protocoles de sécurité pour les contrats d'achat et de maintenance. Pilotage des indicateurs opérationnels via les rapports hebdomadaires et suivi rigoureux du matériel de sécurité sur site (extincteurs, équipements thermiques). Utilisation quotidienne de SAGE X3 pour la fluidification des processus.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Expérience 2 -->
+            <div class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 items-start">
+                <div class="bg-slate-800 text-white p-4 rounded-lg font-bold text-center w-full md:w-32 shrink-0">
+                    <span class="block text-2xl">Stage</span>
+                    <span class="text-xs uppercase tracking-wider">TotalEnergies</span>
+                </div>
+                <div class="space-y-3">
+                    <h3 class="text-2xl font-bold text-slate-900">Stage Pratique en Maintenance Industrielle</h3>
+                    <p class="text-sm font-semibold text-slate-500">TotalEnergies Burkina Faso</p>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Immersion opérationnelle au sein des infrastructures de distribution et de stockage. Participation aux interventions de maintenance préventive et corrective sur les installations électriques et mécaniques de l'entreprise, dans le strict respect des standards de sécurité internationaux.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-slate-900 text-white py-16 px-4">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <h2 class="text-3xl font-bold">Travaillons Ensemble</h2>
+            <p class="text-slate-400 max-w-xl mx-auto">Vous avez un projet de déploiement de système, un besoin en supervision technique ou une opportunité de collaboration ? N'hésitez pas à me contacter.</p>
+            
+            <div class="flex flex-wrap justify-center gap-8 text-lg pt-4">
+                <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-location-dot text-blue-400"></i>
+                    <span>Burkina Faso</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-envelope text-blue-400"></i>
+                    <a href="mailto:votre.email@exemple.com" class="hover:underline text-slate-300">Envoyer un Email</a>
+                </div>
+                <div class="flex items-center gap-3">
+                    <i class="fa-brands fa-linkedin text-blue-400"></i>
+                    <a href="#" class="hover:underline text-slate-300">Profil LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-600 py-6 text-center text-xs border-t border-slate-900">
+        <p>&copy; 2026 Nonwimalou Yves Chrysologue SOME. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
